@@ -87,8 +87,10 @@ python rock_paper_scissors.py
 ```
 
 Follow the on-screen instructions to play the game.
-How to Play
-Run the script or open the web page.
+### How to Play
+### Run the script 
+       or
+### open the web page.
 Input your choice:
 Type 'r' for rock
 Type 'p' for paper
