@@ -17,7 +17,7 @@ Here are some screenshots that showcase the responsive design of the Rock-Paper-
 <img src="" alt="">
 <img src="" alt="">
 
-<img src="/workspaces/python-essentials-project/assets/imagefile.png"alt="responsive views">
+<img src="![/workspaces/python-essentials-project/assets/imagefile.png](https://github.com/princessble/python-essentials-project/blob/1049bd4a1b5a6f63bf8fd32331addf2aa4221a14/assets/imagefile.png)"alt="responsive views">
 
 Feel free to explore the quiz on different devices to see how the user interface adapts!
 
