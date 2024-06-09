@@ -86,17 +86,11 @@ To run the script locally:
 python rock_paper_scissors.py
 ```
 
-Follow the on-screen instructions to play the game.
-### How to Play
-### Run the script 
-       or
-### open the web page.
-Input your choice:
-Type 'r' for rock
-Type 'p' for paper
-Type 's' for scissors
-Hit Enter or click the corresponding button.
-The result will be displayed on the screen.
+Follow these on-screen instructions to play the game:
+
+Choose one: 'r' for rock, 'p' for paper, 's' for scissors.
+The computer will randomly choose one of rock, paper, or scissors.
+The script will display the computer's choice and the result of the game.
 
 ## Responsive Design
 
