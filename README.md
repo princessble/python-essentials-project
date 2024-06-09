@@ -14,6 +14,7 @@ Welcome to the Rock-Paper-Scissors game! This simple Python script, created by B
   - [check_victory() Function](#check_victory-function)
 - [Running the Script](#running-the-script)
 - [Publishing on GitHub Pages](#publishing-on-github-pages)
+- [Responsive Design] ()
 - [Acknowledgements](#acknowledgements)
 - [Footer](#footer)
 
@@ -122,7 +123,7 @@ python-essentials-project/
     </style>
 </head>
 <body>
-    <h1>Rock-Paper-Scissors Game 🪨📄✂️</h1>
+    <h1>Rock-Paper-Scissors Game</h1>
     <p>Authored by Blessing Fortune Kwomo</p>
     <div>
         <button class="choice" onclick="playGame('r')">Rock</button>
@@ -201,9 +202,12 @@ function convertChoice(choice) {
 6. **Access Your Site:**
    - Your site will be available at `https://YOUR-USERNAME.github.io/python-essentials-project/`.
 
+### Responsive Design
+The Rock-Paper-Scissors game website is designed to be responsive and works well on various devices, including desktops, tablets, and mobile phones. The layout adjusts dynamically to provide an optimal user experience regardless of screen size.
+
 ## Acknowledgements 🙏
 
-We would like to extend our heartfelt gratitude to:
+I would like to extend my heartfelt gratitude to:
 
 - **Limerick ETB:** For the opportunity to learn coding and enhance our skills.
 - **Code Institute:** For providing the platform and resources to make this project possible.
