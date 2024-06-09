@@ -1,5 +1,6 @@
 
-# Rock-Paper-Scissors Game 🪨📄✂️
+
+# Rock-Paper-Scissors Game 
 
 **Authored by Blessing Fortune Kwomo**
 
@@ -13,8 +14,7 @@ Welcome to the Rock-Paper-Scissors game! This simple Python script, created by B
   - [game() Function](#game-function)
   - [check_victory() Function](#check_victory-function)
 - [Running the Script](#running-the-script)
-- [Publishing on GitHub Pages](#publishing-on-github-pages)
-- [Responsive Design] ()
+- [Responsive Design](#responsive-design)
 - [Acknowledgements](#acknowledgements)
 - [Footer](#footer)
 
@@ -87,122 +87,17 @@ python rock_paper_scissors.py
 ```
 
 Follow the on-screen instructions to play the game.
+How to Play
+Run the script or open the web page.
+Input your choice:
+Type 'r' for rock
+Type 'p' for paper
+Type 's' for scissors
+Hit Enter or click the corresponding button.
+The result will be displayed on the screen.
 
-## Publishing on GitHub Pages
+## Responsive Design
 
-### Directory Structure
-
-Ensure your project directory has the following structure:
-
-```
-python-essentials-project/
-│
-├── index.html
-└── assets/
-    └── script.js
-```
-
-### `index.html`
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock-Paper-Scissors Game</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-        .choice {
-            margin: 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Rock-Paper-Scissors Game</h1>
-    <p>Authored by Blessing Fortune Kwomo</p>
-    <div>
-        <button class="choice" onclick="playGame('r')">Rock</button>
-        <button class="choice" onclick="playGame('p')">Paper</button>
-        <button class="choice" onclick="playGame('s')">Scissors</button>
-    </div>
-    <h2 id="result"></h2>
-    
-    <script src="assets/script.js"></script>
-</body>
-</html>
-```
-
-### `assets/script.js`
-
-```javascript
-function playGame(userChoice) {
-    const choices = ['r', 'p', 's'];
-    const computerChoice = choices[Math.floor(Math.random() * 3)];
-    const result = determineWinner(userChoice, computerChoice);
-    document.getElementById('result').innerText = `You chose ${convertChoice(userChoice)}, computer chose ${convertChoice(computerChoice)}. ${result}`;
-}
-
-function determineWinner(user, computer) {
-    if (user === computer) {
-        return "It's a draw!";
-    }
-    if ((user === 'r' && computer === 's') ||
-        (user === 's' && computer === 'p') ||
-        (user === 'p' && computer === 'r')) {
-        return "Congratulations, you win!";
-    }
-    return "Sorry, you lose.";
-}
-
-function convertChoice(choice) {
-    switch (choice) {
-        case 'r':
-            return 'Rock';
-        case 'p':
-            return 'Paper';
-        case 's':
-            return 'Scissors';
-    }
-}
-```
-
-### Steps to Publish on GitHub Pages
-
-1. **Create a GitHub Repository:**
-   - Go to [GitHub](https://github.com) and create a new repository named `python-essentials-project`.
-
-2. **Clone the Repository Locally:**
-   - Use Git to clone the repository to your local machine:
-     ```bash
-     git clone https://github.com/YOUR-USERNAME/python-essentials-project.git
-     ```
-
-3. **Add Your Files:**
-   - Copy your `index.html` and `assets/script.js` files into the cloned repository directory.
-
-4. **Commit and Push Your Changes:**
-   ```bash
-   cd python-essentials-project
-   git add .
-   git commit -m "Add Rock-Paper-Scissors game"
-   git push origin main
-   ```
-
-5. **Enable GitHub Pages:**
-   - Go to the repository on GitHub.
-   - Click on the "Settings" tab.
-   - Scroll down to the "GitHub Pages" section.
-   - Under "Source", select `main` branch and save.
-
-6. **Access Your Site:**
-   - Your site will be available at `https://YOUR-USERNAME.github.io/python-essentials-project/`.
-
-### Responsive Design
 The Rock-Paper-Scissors game website is designed to be responsive and works well on various devices, including desktops, tablets, and mobile phones. The layout adjusts dynamically to provide an optimal user experience regardless of screen size.
 
 ## Acknowledgements 🙏
