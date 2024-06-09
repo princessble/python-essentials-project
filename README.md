@@ -6,6 +6,17 @@
 
 Welcome to the Rock-Paper-Scissors game! This simple Python script, created by Blessing Fortune Kwomo, allows you to play the classic game against the computer. This project is hosted on GitHub Pages and provides an interactive web-based version of the game.
 
+## Responsive Design
+
+The user interface of Rock-Paper-Scissors game has been developed with responsiveness in mind. This means that the layout and design of the quiz adapt and adjust to different screen sizes, such as desktops, tablets, and smartphones. The responsiveness ensures that users can enjoy the quiz without any usability issues, regardless of the device they are using.
+
+## Screenshots
+
+Here are some screenshots that showcase the responsive design of the Rock-Paper-Scissors Game Quiz:
+<img src="" alt="">
+<img src="" alt="">
+<img src="" alt="">
+
 ## Table of Contents
 
 - [Description](#description)
